@@ -1,9 +1,8 @@
 # Set of Git Commands to know
 
-## Update URL for Git Repo
-Run to see the current remote.
-
-Update remote URL with set-url.
+## Update git remote URL
+-- Run to see the current remote.
+-- Update remote URL with set-url.
 ```
 git remote -v
 git remote set-url origin new_git_url
