@@ -1,4 +1,6 @@
-# Set of Git Commands to know
+# Set of git commands
+
+A brief documentation of git commands I found useful to know.
 
 ## Update git remote URL
 - Run to see the current remote.
