@@ -2,19 +2,18 @@
 
 ## Update URL for Git Repo
 Run to see the current remote.
-Update remote URL with set-url
+
+Update remote URL with set-url.
 ```
 git remote -v
-git remote set-url origin insert_new_git_url
+git remote set-url origin new_git_url
 ```
 
-Example
-```
-git remote set-url origin git@github.com:jsohndata/app-clock.git
-```
+## Unstaging 
+Use ```git reset``` to unstage/exclude a file( or a directory)
 
-## Add all but one file
 ```
-git add .
-git reset -- insert_file_name
+git reset . (all files)
+git reset -- file_name_or_path
+git reset -- directory_name_or_path
 ```
