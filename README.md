@@ -35,6 +35,6 @@ git rm -r --cached directory_name_or_path
 3. Push the new branch to remote repo.
 4. Delete the branch with old name from remote repo.
 ```
-1. git checkout branch_name
-2. git branch -m new_branch_name
+git checkout branch_name
+git branch -m new_branch_name
 ```
