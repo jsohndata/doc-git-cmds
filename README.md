@@ -27,3 +27,13 @@ git rm -r --cached . (all files)
 git rm -r --cached file_name_or_path
 git rm -r --cached directory_name_or_path
 ```
+
+## Renaming a Branch
+- 1. Checkout to the branch of choice
+- 2. Rename a branch locally.
+- 3. Push the new branch to remote repo.
+- 4. Delete the branch with old name from remote repo.
+```
+1. git checkout branch_name
+2. git branch -m new_branch_name
+```
